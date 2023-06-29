@@ -1,0 +1,78 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    box-shadow: 10px 10px 10px #928b8b;
+    width: 97%;
+    height: 94vh;
+    border: solid black 1px;
+    position: relative;
+}
+.div1{
+    width: 45%;
+    position: relative;
+    height: 94vh;
+    overflow: hidden;
+    background: linear-gradient(0deg, #fc1a96 40%, #d62bf8 60%);
+}
+.img{
+    width: auto;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+.div2{
+    width: 90%;
+    position: relative;
+    height: 99.5vh;
+    margin-left: 43%;
+    margin-bottom: 10px;
+}
+.formdiv{
+    display: flex;
+    flex-direction: column;
+}
+.lbl{
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 1%; */
+    color: #5e5959;
+    margin-left: 10px; 
+    font-size: 12px;
+}
+
+input{
+    margin: 1%;
+    width: 25%;
+}
+input[type=text] {
+    /* margin-left: 1%; */
+    border: none;
+    border-bottom: 1px solid rgb(83, 79, 79);
+    font-size: 75%;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .fdiv{
+    margin-left: 5%;
+    border: solid rgb(255, 0, 0) 1px;
+  }
+  .ck{
+    display: inline-block;
+   
+    /* flex-direction: row; */
+  }
+  .chack2{
+    width: 3%;
+}
+.btn{
+    text-align: center;
+    background-color: #d62bf8;
+    width: 20%;
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+}
+h3{
+    margin-left: 9px;
+}
+ 

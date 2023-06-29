@@ -1,0 +1,36 @@
+.main{
+    border: 1px solid blue;
+}
+.common{
+    display: flex;
+    width: auto;
+    height: 300px;
+    /* margin: 10px; */
+    background-color: red;
+    border: 1px solid black;
+}
+.header{
+    position: fixed;
+    display: flex;
+    width: 98%;
+    height: 70px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
+    background-color: azure;
+}
+.header:hover{
+    height: 305;
+    margin-bottom: 5px;
+    transition: 0.6s;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px rgb(207, 165, 110);
+}
+.h{
+    margin: 17px;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 180%;
+}
+.sidebar{
+    width: 300px;
+}

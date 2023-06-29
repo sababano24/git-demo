@@ -1,0 +1,24 @@
+.mainDive{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin: 50px;
+    flex-direction: column;
+}
+.play{
+    display: flex;
+    height: 400px;
+    width: 450px;
+    margin: 20px;
+    background-color: aqua;
+    box-shadow: 7px 7px 7px black;
+    border: 1px solid black;
+}
+.btnDiv{
+    margin-left: 25px;
+}
+.myCanvas{
+    border: 1px solid black;
+}
